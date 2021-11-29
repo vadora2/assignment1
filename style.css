@@ -1,0 +1,15 @@
+.NavBar {
+    display: flex;
+    flex-direction: row;
+}
+.NavBar .active{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .NavBar .links{
+    margin-left: 80px;
+    display: flex;
+  }
+
+  
