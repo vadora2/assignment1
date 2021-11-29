@@ -1,15 +1,13 @@
-.NavBar {
-    display: flex;
-    flex-direction: row;
+body {
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  background-color: #ffffff;
 }
-.NavBar .active{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-  }
-  .NavBar .links{
-    margin-left: 80px;
-    display: flex;
-  }
 
+#sign {
+  pointer-events: none;
+  cursor: default;
+  font-size: 30px;
+  color: #cc6a4c;
   
+}
