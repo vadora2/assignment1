@@ -76,11 +76,13 @@
             .topnav a:hover {
                 background-color: #529CB3;
                 color: rgb(255, 255, 255);
+                border-radius: 20%;
             }
             
             .topnav a.active {
                 background-color: rgb(36, 106, 128);
                 color: white;
+                border-radius: 20%;
             }
             
             @media screen and (max-width: 600px) {
@@ -140,7 +142,7 @@
             content: "";
             display: table;
             clear: both;
-            }.
+            }
         
             /* boxes */
             .content {
@@ -157,6 +159,7 @@
             border: none;
             outline: none;
             padding: 12px 16px;
+            border-radius: 20px;
             background-color: white;
             cursor: pointer;
             }
@@ -179,7 +182,7 @@
                 <a href="aboutpage.html"class="active">about.</a>
                 <a href="contactpage.html">contact.</a>
                 
-                <a href="" id="sign">- vadora tang -</a> 
+                <a href="" id="sign">vadora tang</a> 
                 <div class ="icons">
                     <a href="https://www.instagram.com/okvadora/"><i class="fab fa-instagram" style="font-size: 26px; color: #ffffff;"></i></a>
                     <a href="https://www.linkedin.com/in/vadora-tang-567722211/"><i class="fab fa-linkedin" style="font-size: 26px; color: #ffffff;"></i></a>
@@ -188,7 +191,8 @@
             </div>
         <div class="main">
         
-        <h1>about me</h1>
+        <!-- <img class=iconphoto> -->
+        <h1 class="about">about me</h1>
         <hr>
         <br>
         
@@ -204,90 +208,100 @@
         <!-- Portfolio Gallery Grid -->
         <div class="row">
             <div class="column portfolio">
-            <div class="content">
-                <h4>Mountains</h4>
-                <p>Lorem ipsum dolor..</p>
-                <img src="/w3images/mountains.jpg" alt="portfolio" style="width:100%">
-            </div>
-            </div>
-            <div class="column portfolio">
-            <div class="content">
-                <h4>Mountains</h4>
-                <p>Lorem ipsum dolor..</p>
-                <img src="/w3images/mountains.jpg" alt="portfolio" style="width:100%">
-            </div>
+              <div class="content">
+                  <h3>learning journey mindmap.</h3>
+                  <p>planning my future and <br>how I want to get there.</p>
+                  <img src="IMG/LearningJmindmap.jpg" alt="learning journey mindmap" style="width:100%">
+              </div>
             </div>
             <div class="column portfolio">
-            <div class="content">
-                <h4>Mountains</h4>
-                <p>Lorem ipsum dolor..</p>
-                <img src="/w3images/mountains.jpg" alt="portfolio" style="width:100%">
+              <div class="content">
+                  <h3>classical music cards.</h3>
+                  <p>designed cards for the <br>theme 'Classical Music'.</p>
+                  <section class="classicalpics">
+                    <img src="IMG/Beethoven.jpg" alt="beethoven" style="width:50%">
+                    <img src="IMG/maria.jpg" alt="maria callas" style="width:50%">
+                    <img src="IMG/Violin.jpg" alt="violin" style="width:50%">
+                    <img src="IMG/Classical Music.jpg" alt="back of the cards" style="width:50%">
+                  </section>
+              </div>
             </div>
+            <div class="column portfolio">
+              <div class="content">
+                  <h3>traditional tarts <br>& biscuits.</h3>
+                  <p>pineapple tart & gem biscuit.</p>
+                  <section class="biscuitpics">
+                    <img src="IMG/tartcolour.jpg" alt="beethoven" style="width:50%">
+                    <img src="IMG/tartbnw.jpg" alt="maria callas" style="width:50%">
+                    <img src="IMG/bisccolour.jpg" alt="violin" style="width:50%">
+                    <img src="IMG/biscbnw.jpg" alt="back of the cards" style="width:50%">
+                  </section>
+              </div>
             </div>
         
           <div class="column education">
             <div class="content">
-                <h4>Mountains</h4>
-              <p>Lorem ipsum dolor..</p>
-              <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+                <h3>in Ngee Ann Polytechnic</h3>
+                <p>currently pursuing a Diploma in <br> Immersive Media.<br></p>
+              <img src="IMG/sem2.gif" alt="me and friends in Ngee Ann class" style="width:100%">
             </div>
           </div>
           <div class="column education">
             <div class="content">
-            <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
-              <h4>Lights</h4>
-              <p>Lorem ipsum dolor..</p>
+              <h3>Queenstown Secondary School</h3>
+              <p>completed GCSE 'O' Levels in 2020 during the COVID Pandemic.<br></p>
+            <img src="IMG/secsch.gif" alt="me and friends in Secondary School" style="width:100%">
             </div>
           </div>
           <div class="column education">
             <div class="content">
-            <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
-              <h4>Forest</h4>
-              <p>Lorem ipsum dolor..</p>
+              <h3>ZhangDe Primary School</h3>
+              <p>took the Primary School Leaving Examination (PSLE).</p>
+            <img src="IMG/PRI SCH.jpg" alt="Nature" style="width:100%">
             </div>
           </div>
         
           <div class="column achievements">
             <div class="content">
-              <img src="/w3images/cars1.jpg" alt="Car" style="width:100%">
-              <h4>Retro</h4>
-              <p>Lorem ipsum dolor..</p>
+              <h3>achieved NYAA Silver.</h3>
+              <p>the National Youth <br>Achievement Award.</p>
+              <img src="IMG/OBS.gif" alt="sailing during OBS" style="width:100%">
             </div>
           </div>
           <div class="column achievements">
             <div class="content">
-            <img src="/w3images/cars2.jpg" alt="Car" style="width:100%">
               <h4>Fast</h4>
               <p>Lorem ipsum dolor..</p>
+            <img src="/w3images/cars2.jpg" alt="Car" style="width:100%">
             </div>
           </div>
           <div class="column achievements">
             <div class="content">
-            <img src="/w3images/cars3.jpg" alt="Car" style="width:100%">
               <h4>Classic</h4>
               <p>Lorem ipsum dolor..</p>
+            <img src="/w3images/cars3.jpg" alt="Car" style="width:100%">
             </div>
           </div>
         
           <div class="column community">
             <div class="content">
-              <img src="/w3images/people1.jpg" alt="Car" style="width:100%">
               <h4>Girl</h4>
               <p>Lorem ipsum dolor..</p>
+              <img src="/w3images/people1.jpg" alt="Car" style="width:100%">
             </div>
           </div>
           <div class="column community">
             <div class="content">
-            <img src="/w3images/people2.jpg" alt="Car" style="width:100%">
               <h4>Man</h4>
               <p>Lorem ipsum dolor..</p>
+            <img src="/w3images/people2.jpg" alt="Car" style="width:100%">
             </div>
           </div>
           <div class="column community">
             <div class="content">
-            <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
               <h4>Woman</h4>
               <p>Lorem ipsum dolor..</p>
+            <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
             </div>
           </div>
         </div>
@@ -304,8 +318,7 @@
             for (i = 0; i < x.length; i++) {
                 RemoveClass(x[i], "show");
                 if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
-            }
-            }
+            }}
             
             function AddClass(element, name) {
             var i, arr1, arr2;
@@ -313,8 +326,7 @@
             arr2 = name.split(" ");
             for (i = 0; i < arr2.length; i++) {
                 if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-            }
-            }
+            }}
             
             function RemoveClass(element, name) {
             var i, arr1, arr2;
@@ -323,23 +335,25 @@
             for (i = 0; i < arr2.length; i++) {
                 while (arr1.indexOf(arr2[i]) > -1) {
                 arr1.splice(arr1.indexOf(arr2[i]), 1);     
-                }
-            }
+                }}
             element.className = arr1.join(" ");
             }
         // filter
         
         // highlight button
-            var btnContainer = document.getElementById("myBtnContainer");
+            var btnContainer = document.getElementById("buttonContainer");
             var btns = btnContainer.getElementsByClassName("btn");
             for (var i = 0; i < btns.length; i++) {
             btns[i].addEventListener("click", function(){
                 var current = document.getElementsByClassName("active");
-                current[0].className = current[0].className.replace(" active", "");
-                this.className += " active";
+                console.log(current);
+                for(let i=0; i<=current.length; i++){
+                  current[i].classList.remove("active");
+                  console.log(i);
+                }
+                //current[0].className = current[0].className.replace(" active", "");
+                this.className += " active"; 
                 console.log(this.className)
             });
             }
         </script>
-    
-    
