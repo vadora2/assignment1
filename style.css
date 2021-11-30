@@ -14,9 +14,10 @@
   pointer-events: none;
   cursor: default;
   font-size: 50px;
-  color: #103557;
+  color: #10202e;
   flex-grow: 0.8;
 }
+
 
 /* font */
 body {
@@ -26,25 +27,73 @@ body {
 }
 
 /* homepage */
-.herophoto {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: static;
-  top:1%;
-  width: 100%;
+.phototext {
+  /* padding-top: 5%; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: row;
+  flex-wrap: wrap;
 }
 
-.herotext {
-  text-align: center;
+.homephoto {
+  /* top:1%; */
+  width: 100%;
+  transition: width 2s ease-in;
+  position: -webkit-sticky;
+  right: 90%;
+}
+
+.text1 {
+  padding: 2%;
+  transition: padding 2s linear;
+  text-align: left;
   position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+  top: 20%;
+  left: 40%;
+  width: 55%;
+  color: rgb(255, 255, 255);
+  background-color: rgb(90, 139, 139);
+  border-radius: 5px;
   z-index: 0;
 }
+.text1:hover{
+  padding: 3%;
+}
 
+.text2{
+  top: 145%;
+  padding: 2%;
+  border-radius: 2%;
+  position: absolute;
+  width: 60%;
+  left: 20%;
+  text-align: center;
+  background-color: rgb(83, 136, 136);
+  color: white;
+  opacity: 98%;
+  transition: background-color 1s linear;
+}
+.text2:hover{
+  background-color: rgb(67, 102, 102);
+}
+
+#learnmore {
+  background-color: rgb(255, 255, 255);
+  color: #333;
+  border-radius: 5px;
+  font-size: 110%;
+  padding: 1%;
+  text-align: center;
+  transition: all 0.5s;
+}
+#learnmore:hover,
+#learnmore:focus {
+  background-color: #333;
+  color: rgb(224, 224, 224);
+}
+
+/* ------------------------------------------------------------- */
 /* aboutpage */
 .about {
   padding-left: 2%;
@@ -66,8 +115,13 @@ body {
   height: 15%;
   border-radius: 50%;
 }
+.iconphoto:hover{
+    transform:rotate(30deg);
+}
 
 .pics {
   display: flex;
   flex-wrap: wrap;
+  border-radius: 5%;
 }
+
