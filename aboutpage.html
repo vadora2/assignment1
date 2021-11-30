@@ -1,53 +1,5 @@
 <head>
     <link rel="stylesheet" href="style.css" type="text/css">
-    <!-- <style>
-        div.gallery {
-          border: 1px solid #ccc;
-        }
-        
-        div.gallery:hover {
-          border: 1px solid #777;
-        }
-        
-        div.gallery img {
-          width: 100%;
-          height: auto;
-        }
-        
-        div.desc {
-          padding: 15px;
-          text-align: center;
-        }
-        
-        * {
-          box-sizing: border-box;
-        }
-        
-        .responsive {
-          padding: 0 6px;
-          float: left;
-          width: 24.99999%;
-        }
-        
-        @media only screen and (max-width: 700px) {
-          .responsive {
-            width: 49.99999%;
-            margin: 6px 0;
-          }
-        }
-        
-        @media only screen and (max-width: 500px) {
-          .responsive {
-            width: 100%;
-          }
-        }
-        
-        .clearfix:after {
-          content: "";
-          display: table;
-          clear: both;
-        }
-        </style> -->
 </head>
 
 <body>
@@ -148,6 +100,7 @@
             .content {
             background-color: white;
             padding: 10px;
+            text-align: center;
             }
         
             .show {
@@ -162,6 +115,7 @@
             border-radius: 20px;
             background-color: white;
             cursor: pointer;
+            font-size: 100%;
             }
         
             .btn:hover {
@@ -182,7 +136,7 @@
                 <a href="aboutpage.html"class="active">about.</a>
                 <a href="contactpage.html">contact.</a>
                 
-                <a href="" id="sign">vadora tang</a> 
+                <a href="" id="sign">- vadora tang -</a> 
                 <div class ="icons">
                     <a href="https://www.instagram.com/okvadora/"><i class="fab fa-instagram" style="font-size: 26px; color: #ffffff;"></i></a>
                     <a href="https://www.linkedin.com/in/vadora-tang-567722211/"><i class="fab fa-linkedin" style="font-size: 26px; color: #ffffff;"></i></a>
@@ -191,11 +145,12 @@
             </div>
         <div class="main">
         
-        <!-- <img class=iconphoto> -->
-        <h1 class="about">about me</h1>
+        <section class="intro">
+          <img src="IMG/meturn.jpg" class=iconphoto>
+          <h1 class="about">about me</h1>
+        </section>
         <hr>
-        <br>
-        
+       
         <!-- <h2>PORTFOLIO</h2> -->
         
         <div id="buttonContainer">
@@ -211,7 +166,9 @@
               <div class="content">
                   <h3>learning journey mindmap.</h3>
                   <p>planning my future & <br>how I want to get there.</p>
-                  <img src="IMG/LearningJmindmap.jpg" alt="learning journey mindmap" style="width:100%">
+                  <section class="pics">
+                    <img src="IMG/LearningJmindmap.jpg" alt="learning journey mindmap" style="width:100%">
+                  </section>
               </div>
             </div>
             <div class="column portfolio">
@@ -231,10 +188,10 @@
                   <h3>traditional tarts <br>& biscuits.</h3>
                   <p>pineapple tart & gem biscuit.</p>
                   <section class="pics">
-                    <img src="IMG/tartcolour.jpg" alt="beethoven" style="width:50%">
-                    <img src="IMG/tartbnw.jpg" alt="maria callas" style="width:50%">
-                    <img src="IMG/bisccolour.jpg" alt="violin" style="width:50%">
-                    <img src="IMG/biscbnw.jpg" alt="back of the cards" style="width:50%">
+                    <img src="IMG/tartcolour.jpg" alt="drawing of pinapple tart with colours" style="width:50%">
+                    <img src="IMG/tartbnw.jpg" alt="black and white drawing of  of pineapple tart" style="width:50%">
+                    <img src="IMG/bisccolour.jpg" alt="drawing of gem biscuit with colours" style="width:50%">
+                    <img src="IMG/biscbnw.jpg" alt="black and white drawing of gem biscuit" style="width:50%">
                   </section>
               </div>
             </div>
@@ -243,21 +200,29 @@
             <div class="content">
                 <h3>in Ngee Ann Polytechnic</h3>
                 <p>currently pursuing a Diploma in <br> Immersive Media.<br></p>
-              <img src="IMG/sem2.gif" alt="me and friends in Ngee Ann class" style="width:100%">
+                <section class="pics">
+                  <img src="IMG/sem2.gif" alt="me and friends in Ngee Ann class" style="width:100%">
+                  <img src="IMG/sem1.png" alt="me and friends in HBL class" style="width:100%">
+                </section>
             </div>
           </div>
           <div class="column education">
             <div class="content">
               <h3>Queenstown Secondary School</h3>
               <p>completed GCSE 'O' Levels in 2020 during the COVID Pandemic.<br></p>
-            <img src="IMG/secsch.gif" alt="me and friends in Secondary School" style="width:100%">
+              <section class="pics">
+                <img src="IMG/secsch.gif" alt="me and friends in Secondary School" style="width:100%">
+                <img src="IMG/MS FAUZIAHHHH.jpg" alt="me and friends in Secondary School" style="width:100%">
+              </section>
             </div>
           </div>
           <div class="column education">
             <div class="content">
               <h3>ZhangDe Primary School</h3>
               <p>took the Primary School Leaving Examination (PSLE).</p>
-            <img src="IMG/PRI SCH.jpg" alt="Nature" style="width:100%">
+              <section class="pics">
+                <img src="IMG/PRI SCH.jpg" alt="primary school class photo" style="width:100%">
+              </section>
             </div>
           </div>
         
@@ -266,8 +231,8 @@
               <h3>achieved NYAA Silver.</h3>
               <p>the National Youth <br>Achievement Award.</p>
               <section class="pics">
-                <img src="IMG/clouds.JPG" alt="sailing during OBS" style="width:100%">
-                <img src="IMG/cycleclouds.JPG" alt="sailing during OBS" style="width:100%">
+                <img src="IMG/clouds.JPG" alt="me in clouds" style="width:100%">
+                <img src="IMG/cycleclouds.JPG" alt="me in clouds after cycling" style="width:100%">
               </section>
             </div>
           </div>
@@ -275,7 +240,9 @@
             <div class="content">
               <h3>completed Outward Bound Singapore (OBS).</h3>
               <p>went through 5 days of sailing.</p>
-              <img src="IMG/OBS.gif" alt="Car" style="width:100%">
+              <section class="pics">
+                <img src="IMG/OBS.gif" alt="sailing" style="width:100%">
+              </section>
             </div>
           </div>
           <div class="column achievements">
@@ -283,8 +250,8 @@
               <h3>Peer Support Leader.</h3>
               <p>took care of the wellbeing of <br>classmates in 2020.</p>
               <section class="pics">
-                <img src="IMG/grad photo.jpg" alt="Car" style="width:100%">
-                <img src="IMG/RHD.jpg" alt="Car" style="width:100%">
+                <img src="IMG/grad photo.jpg" alt="me in 2020 class" style="width:100%">
+                <img src="IMG/RHD.jpg" alt="rhd photo" style="width:100%">
               </section>
             </div>
           </div>
@@ -293,8 +260,8 @@
               <h3>represented QTSS in <br>South Zone B-Division.</h3>
               <!-- <p>scored 30 points for NAPFA in 2018 & 2020.</p> -->
               <section class="pics">
-                <img src="IMG/bdiv2020.gif" alt="Car" style="width:100%">
-                <img src="IMG/bdiv2020tgt.gif" alt="Car" style="width:100%">
+                <img src="IMG/bdiv2020.gif" alt="B-Division photo" style="width:100%">
+                <img src="IMG/bdiv2020tgt.gif" alt="B-Division photo with juniors" style="width:100%">
               </section>
             </div>
           </div>
@@ -303,8 +270,8 @@
               <h3>Queenscup 2017-2019.</h3>
               <p>Won Gold in both B-Division & C-Division.</p>
               <section class="pics">
-                <img src="IMG/queenscup2019.jpg" alt="Car" style="width:100%">
-                <img src="IMG/queenscup2018.jpg" alt="Car" style="width:100%">
+                <img src="IMG/queenscup2019.jpg" alt="2019 queenscup photo" style="width:100%">
+                <img src="IMG/queenscup2018.jpg" alt="2018 queenscup photo" style="width:100%">
               </section>
             </div>
           </div>
@@ -313,8 +280,8 @@
               <h3>NAPFA Top Performer.</h3>
               <p>scored 30 points for NAPFA in 2018 & 2020.</p>
               <section class="pics">
-                <img src="IMG/x country.jpg" alt="Car" style="width:100%">
-                <img src="IMG/RUNNNN.jpg" alt="Car" style="width:100%">
+                <img src="IMG/x country.jpg" alt="cross country photo" style="width:100%">
+                <img src="IMG/RUNNNN.jpg" alt="cross country running photo" style="width:100%">
               </section>
             </div>
           </div>
@@ -323,7 +290,9 @@
             <div class="content">
               <h3>Chinese New Year with <br>Bright Hill Evergreen.</h3>
               <p>celebrated CNY 2019 with those in nursing homes by performing for them.</p>
-              <img src="IMG/perform.jpg" alt="Car" style="width:100%">
+              <section class="pics">
+                <img src="IMG/perform.jpg" alt="performance" style="width:100%">
+              </section>
             </div>
           </div>
           <div class="column community">
@@ -331,7 +300,7 @@
               <h3>Mid Autumn Festival 2018.</h3>
               <p>set up booths at <br> Gospel Light Christian Church for neighbourhoods to celebrate Mid Autumn Festival.</p>
               <section class="pics">
-                <img src="IMG/midautumnfes2018.jpg" alt="Car" style="width:100%">
+                <img src="IMG/midautumnfes2018.jpg" alt="photo after the festival" style="width:100%">
               </section>
             </div>
           </div>
@@ -340,7 +309,7 @@
               <h3>SG BVB Series 3 Competition.</h3>
               <p>did volunteer work <br>for VIA hours.</p>
               <section class="pics">
-                <img src="IMG/VIAvb.jpg" alt="Car" style="width:100%">
+                <img src="IMG/VIAvb.jpg" alt="photo of us volunteering together" style="width:100%">
               </section>
             </div>
           </div>
@@ -349,8 +318,8 @@
               <h3>Food and Blood Drive Donation at QTSS.</h3>
               <p>went to the neighbourhood to promote and facilitated during the event.</p>
               <section class="pics">
-                <img src="IMG/foodblooddrive.jpg" alt="Car" style="width:100%">
-                <img src="IMG/foodblood.jpg" alt="Car" style="width:100%">
+                <img src="IMG/foodblooddrive.jpg" alt="photo after we walked around promoting event" style="width:100%">
+                <img src="IMG/foodblood.jpg" alt="photo during event" style="width:100%">
               </section>
             </div>
           </div>
@@ -359,8 +328,8 @@
               <h3>Volunteered with Gospel Light Christian Church</h3>
               <p>installed hand sanitizers around neighbourhoods at the start of the <br>COVID pandemic.</p>
               <section class="pics">
-                <img src="IMG/handsan.jpg" alt="Car" style="width:100%">
-                <img src="IMG/hansanppl.jpg" alt="Car" style="width:100%">
+                <img src="IMG/handsan.jpg" alt="photo of me installing hand sanitizers" style="width:100%">
+                <img src="IMG/hansanppl.jpg" alt="photo of us after we finished installing hand sanitizers" style="width:100%">
               </section>
             </div>
           </div>
