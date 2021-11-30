@@ -58,12 +58,7 @@ body {
   text-align: center;
 }
 
-.classicalpics {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.biscuitpics {
+.pics {
   display: flex;
   flex-wrap: wrap;
 }
