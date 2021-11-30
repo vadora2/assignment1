@@ -1,3 +1,4 @@
+/* nav bar */
 .topnav {
   display: flex;
   align-content: space-between;
@@ -17,12 +18,14 @@
   flex-grow: 0.8;
 }
 
+/* font */
 body {
   margin: 0;
   font-family: 'Roboto Slab', serif;
   background-color: #ffffff;
 }
 
+/* homepage */
 .herophoto {
   background-position: center;
   background-repeat: no-repeat;
@@ -42,3 +45,25 @@ body {
   z-index: 0;
 }
 
+/* aboutpage */
+.about {
+  text-align: left;
+  padding-left: 2%;
+  padding-top: 12%;
+  position: static;
+  color: rgb(58, 58, 58);
+}
+
+.content {
+  text-align: center;
+}
+
+.classicalpics {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.biscuitpics {
+  display: flex;
+  flex-wrap: wrap;
+}
