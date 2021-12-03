@@ -97,7 +97,6 @@ body {
 /* aboutpage */
 .about {
   padding-left: 2%;
-  padding-bottom: 1%;
   position: static;
   color: rgb(58, 58, 58);
 }
@@ -125,3 +124,37 @@ body {
   border-radius: 5%;
 }
 
+/* ------------------------------------------------------------- */
+/* contactpage */
+body{
+  background-color: #ffffff;
+}
+
+.contentcontain {
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: center;
+}
+
+.contactimg {
+  width: 40%;
+  padding: 3%;
+  border-radius: 30%;
+}
+
+.contact {
+  background-color: darksalmon;
+  display: flex;
+  padding: 2%;
+  border: darksalmon solid 9px;
+  border-radius: 5%;
+  top: 3%;
+  color: #ffffff;
+  
+}
+
+.contact:hover {
+  background-color: rgb(230, 122, 86);
+  display: flex;
+}
